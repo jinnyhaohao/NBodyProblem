@@ -61,7 +61,6 @@ for (size_t i = 0; i < n; i++) {
 
 **Problem**: Object-oriented particle representation fragments memory
 ```cpp
-// ❌ Object-Oriented (Bad for cache)
 struct Particle {
     float x, y, z;
     float vx, vy, vz;
@@ -73,7 +72,6 @@ vector<Particle> particles;  // Scattered in memory
 
 **Solution**: Struct of Arrays (Good for cache)
 ```cpp
-// ✅ Data-Oriented (Good for cache)
 struct ParticleSystem {
     vector<float> x, y, z;     // Contiguous memory
     vector<float> vx, vy, vz;  // Separate blocks
