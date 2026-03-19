@@ -325,20 +325,6 @@ The opening angle θ controls the accuracy-speed tradeoff:
 - **Comprehensive benchmarking** framework
 - **Reproducible results** (fixed random seed)
 - **Physics accuracy** with softening parameter
-
----
-
-## Portfolio Project Highlights
-
-This project demonstrates mastery of:
-
-✅ **Computational Physics**: Newton's law of gravitation, numerical integration
-✅ **Algorithm Design**: O(N²) vs O(N log N) tradeoffs, tree structures  
-✅ **Data Structures**: Octree, SoA vs AoS, memory layout
-✅ **Performance Optimization**: Cache optimization, SIMD, threading
-✅ **Systems Programming**: C++17, memory management, compiler optimizations
-✅ **Software Engineering**: Modular design, benchmarking, reproducibility
-
 ---
 
 ## Further Enhancements
@@ -397,23 +383,6 @@ This project demonstrates mastery of:
    - At 100K particles: Barnes-Hut should be 10-20x faster
    - At 1M particles: Barnes-Hut would be 100x+ faster
 
----
-
-## References
-
-- Barnes, J., & Hut, P. (1986). "A hierarchical O(N log N) force-calculation algorithm"
-- Kelley, H., & Holladay, S. (2014). "Performance Analysis of N-Body Codes"
-- Modern CPU architectures and cache behavior (Hennessy & Patterson)
-
----
-
-## License
-
-This project is provided as-is for educational and portfolio purposes.
-
----
-
-**Built for**: Quant developer interviews and computational physics education
 **Language**: C++17
 **Build System**: CMake
 **Test Framework**: Custom benchmarking suite
